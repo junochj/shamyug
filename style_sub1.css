@@ -1,0 +1,302 @@
+﻿@charset "utf-8";
+
+
+/*공통 서버 1 2 3 css*/
+
+.visual_sub1{width:100%;height:210px;background:url(images2/sub1_visual.jpg) no-repeat;margin-top:92px;}
+
+.visual_sub1_wrap{width:1200px;margin:0 auto;}
+.visual_sub1>h2{display:none;}
+.visual_sub1_wrap p{text-align:center;padding-top:85px;}
+
+
+
+
+/*공통 서버 4 5 css*/
+
+.visual_sub2{width:100%;height:210px;background:url(images/product1.jpg) no-repeat;margin-top:92px;}
+
+.visual_sub2_wrap{width:1200px;margin:0 auto;}
+.visual_sub2>h2{display:none;}
+.visual_sub2_wrap p{text-align:center;padding-top:85px;}
+
+.visual_sub2_2{width:100%;height:210px;background:url(images/product2.jpg) no-repeat;margin-top:92px;}
+.visual_sub2_2>h2{display:none;}
+
+
+/*공통 서버 6 7*/
+
+.visual_sub3{width:100%;height:210px;background:url(images/media.jpg) no-repeat;margin-top:92px;}
+
+.visual_sub3_wrap{width:1200px;margin:0 auto;}
+.visual_sub3>h2{display:none;}
+.visual_sub3_wrap p{text-align:center;padding-top:85px;}
+
+
+/*공통 서버 8 9*/
+
+.visual_sub4{width:100%;height:210px;background:url(images/notice.jpg) no-repeat;margin-top:92px;}
+
+.visual_sub4_wrap{width:1200px;margin:0 auto;}
+.visual_sub4>h2{display:none;}
+.visual_sub4_wrap p{text-align:center;padding-top:85px;}
+
+/*공통 서버 10*/
+
+.visual_sub5{width:100%;height:210px;background:url(images/re.jpg) no-repeat;margin-top:92px;}
+
+.visual_sub5_wrap{width:1200px;margin:0 auto;}
+.visual_sub5>h2{display:none;}
+.visual_sub5_wrap p{text-align:center;padding-top:85px;}
+
+
+
+/*서버 상단 이름들*/
+
+
+.content1{width:1200px;margin:60px auto 60px auto;}
+
+.content1>h2{color:#129143;font-size:27px;}
+.content1>div p:nth-child(1){width:1200px;color:#129143;font-size:25px;}
+
+.content1>div p:nth-child(2){color:#129143;font-size:28px;text-align:center;margin-bottom:70px;font-family: batang;letter-spacing:-2px;}
+.content1>div p:nth-child(3){color:#4c4c4c;font-size:17px;text-align:center;margin-bottom:25px;}
+.content1>div p:nth-child(4){color:#4c4c4c;font-size:17px;text-align:center;margin-bottom:70px;}
+
+
+
+
+
+
+/*sub_ceo*/
+
+.p1{background:url(images/line.png) no-repeat 535px;margin-bottom:70px;}
+
+.content2{width:1200px;margin:0 auto 60px auto;}
+.content2 h2{display:none;}
+
+
+.content2 li{width:300px; height:50px; float:left;text-align:center;font-size:24px; color:#1c5c34;
+ padding-top:150px;margin-bottom:35px;}
+.content2 li:nth-child(1){background:url(images2/sub1_icon1.png) no-repeat center top;}
+.content2 li:nth-child(2){background:url(images2/sub1_icon2.png) no-repeat center top;}
+.content2 li:nth-child(3){background:url(images2/sub1_icon3.png) no-repeat center top;}
+.content2 li:nth-child(4){background:url(images2/sub1_icon4.png) no-repeat center top;}
+/*background:url(images2/sub1_icon1.jpg) no-repeat*/
+.content2>dl{clear:both;}
+
+.content2>dl>dd>p{margin-bottom:25px;}
+.content2>dl>dt{width:1200px;height:50px;background:#1c5c34;border:1px solid #00000;border-radius:50px;line-height:50px;color:#fff;font-size:24px;padding-left:100px;box-sizing:border-box;}
+.content2>dl>dd{width:1200px;margin:35px auto;font-size:17px;line-height:27px;padding:0 100px 0 100px;box-sizing:border-box;}
+
+
+.content3{width:1200px;margin:0 auto;}
+.content3 h2{display:none;}
+
+
+.content3>p{width:900px;margin:0 auto;}
+
+.content3>p:nth-of-type(2){text-align:right;margin-bottom:60px;float:right;}
+.content3>p:nth-of-type(1){text-align:center;margin-bottom:35px;color:#129143;font-size:25px;font-family: batang;letter-spacing:-2px;}
+
+
+/*회사연혁*/
+
+
+.p2{background:url(images/line.png) no-repeat 470px;margin-bottom:70px;}
+
+.content4>ol>li>h3{color:#185a31;font-size:25px;font-weight:100;}
+.content4>ol>li>ol>li>p{color:#2b2b2b;font-size:12px;}
+
+.content4{width:1200px;margin:0 auto;}
+.content4>h2{display:none;}
+
+.content4>ol{background:url(images/xoxo.png) no-repeat center top;height:1579px;}
+.content4>ol>li{width:575px;height:165px;}
+
+.content4>ol>li:nth-child(1){margin-left:625px;padding-top:147.7px;line-height:25px;}
+.content4>ol>li:nth-child(1)>h3{margin-bottom:20.5px;}
+.content4>ol>li:nth-child(1)>ol{margin-left:25px;}
+.content4>ol>li:nth-child(1)>ol>li>p{margin-bottom:8px;}
+
+.content4>ol>li:nth-child(3){margin-left:625px;padding-top:24.7px;line-height:25px;}
+.content4>ol>li:nth-child(3)>h3{margin-bottom:20.5px;}
+.content4>ol>li:nth-child(3)>ol{margin-left:25px;}
+.content4>ol>li:nth-child(3)>ol>li>p{margin-bottom:8px;}
+
+.content4>ol>li:nth-child(5){margin-left:625px;padding-top:24.7px;line-height:25px;}
+.content4>ol>li:nth-child(5)>h3{margin-bottom:20.5px;}
+.content4>ol>li:nth-child(5)>ol{margin-left:25px;}
+.content4>ol>li:nth-child(5)>ol>li>p{margin-bottom:8px;}
+
+.content4>ol>li:nth-child(7){margin-left:625px;padding-top:24.7px;line-height:25px;}
+.content4>ol>li:nth-child(7)>h3{margin-bottom:20.5px;}
+.content4>ol>li:nth-child(7)>ol{margin-left:25px;}
+.content4>ol>li:nth-child(7)>ol>li>p{margin-bottom:8px;}
+
+.content4>ol>li:nth-child(2){padding-top:22px}
+.content4>ol>li:nth-child(2)>h3{margin-bottom:23.9px;}
+.content4>ol>li:nth-child(2)>ol{clear:both;}
+.content4>ol>li:nth-child(2)>ol>li>p{margin-bottom:15.8px;margin-right:15px;}
+
+.content4>ol>li:nth-child(4){padding-top: 22px}
+.content4>ol>li:nth-child(4)>h3{margin-bottom:23.9px;}
+.content4>ol>li:nth-child(4)>ol{clear:both;}
+.content4>ol>li:nth-child(4)>ol>li>p{margin-bottom:15.8px;margin-right:15px;}
+
+.content4>ol>li:nth-child(6){padding-top:22px}
+.content4>ol>li:nth-child(6)>h3{margin-bottom:23.9px;}
+.content4>ol>li:nth-child(6)>ol{clear:both;}
+.content4>ol>li:nth-child(6)>ol>li>p{margin-bottom:15.8px;margin-right:15px;}
+
+
+.content4>ol>li:nth-child(even){text-align:right;width:335px;margin-left:200px;}
+.content4>ol>li>h3{font-size:25px;}
+.content4>ol>li>ol>li{width:365px;clear:both;}
+.content4>ol>li>ol>li>p{font-size:13px;}
+.content4>ol>li>ol>li>p{float:left;}
+.content4>ol>li:nth-child(even)>ol>li>p{float:right;}
+.content4>ol>li:nth-child(even)>h3{float:right;margin-right:-40px;}
+
+.content4>ol>li>ol>li>p:nth-child(2){width:300px;}
+
+
+/*오시는길*/
+
+.p3{background:url(images/line.png) no-repeat 429px;margin-bottom:70px;}
+
+.content5{margin:0 auto;width:1200px;}
+
+.content5_inner{width:1200px;height:170px;border:1px solid #0000; background:#1c5b37;}
+.content5_inner h2{float:left;color:#fff;margin:45px 0 15px 28px;font-weight:105;}
+
+.mapinfo1{float:left;margin:45px 0 15px 28px;}
+.mapinfo1>p>b{font-size:18px;font-weight:105;}
+.mapinfo1>p:nth-child(1)>b{margin-right:45px;}
+.mapinfo1>p:nth-child(2)>b{margin-right:10px;}
+.mapinfo1>p,.mapinfo2>p{font-size:14px;color:#fff;line-height:28px;}
+
+.mapinfo2{float:left;margin:45px 0 15px 28px;}
+
+.map{margin-bottom:60px;}
+
+
+/*제품소개 일반두유 / 곡물두유*/
+
+.p4{background:url(images/line.png) no-repeat 239px;margin-bottom:70px;}
+
+.p5{background:url(images/line.png) no-repeat 265px;margin-bottom:70px;}
+
+.content6{margin:0 auto;width:1200px;}
+
+.milk_menu{width:1200px;}
+
+.milk_menu>ul>li{float:left;margin-bottom:55px;}
+.milk_menu>ul>li:nth-child(1){width:600px;height:100px;background:#1c5b37;}
+.milk_menu>ul>li:nth-child(2){width:600px;height:100px;background:#ece595;}
+.milk_menu>ul>li h2{margin:32px 0 0 28px;font-size:25px;}
+
+.milk_menu>ul>li:nth-child(1)>h2>a{color:#fff;}
+.milk_menu>ul>li:nth-child(2)>h2>a{color:#585538;}
+
+.g1>b{color:#585538}
+.g2{color:#3a3a3a}
+
+
+.nomal_milk{width:1200px;}
+.nomal_milk>figure>p{width:600px;height:331px;float:left;text-align:right;padding-top:20px;}
+.nomal_milk>figure>p>img{margin-right:30px;}
+.nomal_milk>figure>figcaption{width:600px;height:331px;float:left;margin-bottom:70px;}
+.nomal_milk>figure>figcaption>p{margin-left:30px;}
+
+.nomal_milk>figure>figcaption>p:nth-child(1),.nomal_milk>figure>figcaption>p:nth-child(3){font-size:25px;margin-bottom:28px;color:#1c5b37;}
+.nomal_milk>figure>figcaption>p:nth-child(2){margin-bottom:28px;}
+.nomal_milk>figure>figcaption>p>b{font-weight:101;}
+.nomal_milk>figure>figcaption>p{font-size:18px;color:#3a3a3a;}
+
+.nomal_milk>figure>figcaption>p:nth-child(4),.nomal_milk>figure>figcaption>p:nth-child(5),.nomal_milk>figure>figcaption>p:nth-child(6),.nomal_milk>figure>figcaption>p:nth-child(7){margin-bottom:8px;}
+
+.thumb_img{clear:both;}
+
+.thumb_img{}
+.thumb_img button{border:0;background:none;}
+.thumb_img li{width:155px;height:255px;float:left;margin-right:85px;margin-bottom:70px;}
+
+
+
+/*미디어*/
+
+.p6{background:url(images/line.png) no-repeat 404px;margin-bottom:70px;}
+
+
+.content7{margin:0 auto;width:1200px;color:#129143;}
+
+.main_>li:nth-child(1)>iframe{width:785px;height:445px;float:left;}
+
+.main_>li:nth-child(1)>p{width:785px;height:445px;float:left;}
+
+.media_info1{width:415px;height:445px;float:left;background:#f2f0f0;margin-bottom:50px;}
+
+.media_info1>h2{margin:40px 25px 40px 25px;font-size:22px;font-weight:101;}
+.media_info1>p:nth-of-type(1){margin:0px 25px 200px 25px;}
+.media_info1>p:nth-of-type(2){float:left;margin-left:190px;border-right:1px solid #1c5b37;font-size:17px;padding-right:10px;}
+.media_info1>p:nth-of-type(3){float:right;margin-right:25px;font-size:17px;line-height:20px;}
+
+iframe{border:0}
+
+
+.main_>li:nth-child(2),.main_>li:nth-child(3),.main_>li:nth-child(4){float:left;}
+.media_info2>h2{font-size:20px;margin-bottom:15px;}
+
+.main_>li:nth-child(2)>iframe,.main_>li:nth-child(3)>iframe,.main_>li:nth-child(4)>iframe{width:370px;height:210px;margin-bottom:15px;}
+
+.main_>li:nth-child(2)>p,.main_>li:nth-child(3)>p,.main_>li:nth-child(4)>p
+{width:370px;height:210px;margin-bottom:15px;}
+
+.main_>li:nth-child(2),.main_>li:nth-child(3){margin-right:45px;}
+
+.media_info2>p{float:left;margin-bottom:75px;}
+
+.media_info2>p:nth-of-type(1){margin-right:10px;font-size:17px;line-height:20px;border-right:1px solid #1c5b37;padding-right:10px;}
+.media_info2>p:nth-of-type(2){line-height:20px;}
+
+
+.p7{background:url(images/line.png) no-repeat 379px;margin-bottom:70px;}
+
+
+
+
+/*노티스 faq*/
+
+
+.p8{background:url(images/line.png) no-repeat 616px;margin-bottom:70px;}
+.p9{background:url(images/line.png) no-repeat 585px;margin-bottom:70px;}
+
+
+
+.sub_table{width:1200px;margin:0 auto 75px auto; color:#1c5b37;font-size:15px;}
+.sub_table>table{border-collapse: collapse;text-align:center;}
+.sub_table>table>thead{background:#1c5b37;color:#fff;
+/*border-collapse: collapse; 이건 테이블 간격 붙여주는거 필독*/}
+
+.sub_table>table>thead>tr>th,.sub_table>table>tbody>tr>td{height:50px;}
+.sub_table>table>thead>tr>th:nth-child(1){width:100px;}
+.sub_table>table>thead>tr>th:nth-child(2){width:870px;}
+.sub_table>table>thead>tr>th:nth-child(3){width:230px;}
+
+
+.sub_table>table>tbody>tr>td{border-bottom:1px solid #1c5b37;}
+
+.sub_table>table>tbody>tr>td:nth-child(2){text-align:left;}
+
+
+
+
+.p10{background:url(images/line.png) no-repeat 444px;margin-bottom:70px;}
+
+
+.content8 li:nth-child(1){background:url(images/icon2_1.png) no-repeat center top;}
+.content8 li:nth-child(2){background:url(images/icon2_2.png) no-repeat center top;}
+.content8 li:nth-child(3){background:url(images/icon2_3.png) no-repeat center top;}
+.content8 li:nth-child(4){background:url(images/icon2_4.jpg) no-repeat center top;}
+

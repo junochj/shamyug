@@ -1,0 +1,203 @@
+﻿/*나눔바른 고딕*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*로보토*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@charset "utf-8";
+
+/*공통css*/
+
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,dd,dt,dr,p,hr,button,form,input,select,figure,figcaption,iframe{margin:0;padding:0;list-style:none;font-family:"Roboto";font-family: Nanum Barun Gothic;font-family: Roboto;}
+
+img{border:0;}
+a{text-decoration:none;}
+
+
+/*메인 서브공통 css*/
+
+/*header*/
+
+header{height:92px;width:100%;border-bottom:3px solid #00a551;background: #fff;position:absolute;left:0;top:0;}
+#header_wrap{height:92px;width:1200px;margin:0 auto;}
+
+.header_inner{height:92px;clear:both;}
+.header_inner h1{height:92px;width:240px;text-align:center;line-height:92px;float:left;}
+.header_inner h1 a img{padding:21px 0 0 15px;display:block;}
+
+.gnb{height:92px;width:960px;float:left;}
+.gnb>li{height:92px;width:240px;float:left;}
+.gnb>li>h2{height:92px;line-height:92px;text-align:center;margin-bottom:35px;font-size:17px;color:#195949;}
+.gnb>li>h2>a{color:#195949;}
+
+
+.gnb>li>ul>li{height:55px;text-align:center;font-size:17px;}
+.gnb>li>ul>li:nth-child(3){padding-bottom:35px;}
+
+.gnb>li>ul>li>a{color:#195949;}
+
+
+/*footer*/
+
+footer{height:310px;width:100%;border-top:3px solid #00a551;background: #fff;box-sizing:border-box;clear:both;}
+#footer_wrap{clear:both;}
+.footer_img{height:40px;width:405px;margin:0 auto;}
+.footer_img li{float:left;margin:35px 17px 35px 17px;}
+
+#footer_wrap>p{text-align:center;font-size:12px;clear:both;}
+.footer_text{clear:both;width:634px;margin:0 auto;}
+.footer_text p{font-size:12px;float:left;margin:0 17px 12px 17px;}
+
+#footer_wrap>form{width:200px;height:25px;margin:35px auto;}
+#footer_wrap>form>select{width:225px;height:25px;border:2px solid #00a551;color:#00a551;}
+option{text-align:center;}
+
+
+/*container*/
+/*메인 비주얼 이미지영역*/
+
+#container{margin:0 auto;margin-top:92px;}
+
+.visual{height:587px;}
+.visual_img{height:587px;}
+
+
+.visual_img li{float:left;overflow: hidden;}
+.v1{height:587px;background:url(images/visual_img.jpg); no-repeat;}
+.v2{height:587px;background:url(images/visual2_img.jpg); no-repeat;}
+.v3{height:587px;background:url(images/visual3_img.jpg); no-repeat;}
+
+.visual_txt{width:1200px;margin:0 auto;}
+.visual_txt p{color:#fff;}
+.visual_txt p:nth-child(1){text-align:center;padding:178px 0 57px 0;font-size:80px;}
+.visual_txt p:nth-child(2){text-align:center;padding-bottom:216px;font-size:28px;}
+
+.visual>h2{display:none;}
+
+
+.visual_btn{ position:absolute; left:50%;  margin:-100px 0 0 50px;}
+.visual_btn>li{ float: left; margin-right:5px;}
+.visual_btn>li button{ border: 0 ; background: none; color: #fff; font-size: 20px; padding: 10px 15px; }
+.visual_btn>li button:hover{ cursor:pointer; }
+
+/*메인 뉴이스트 영역*/
+
+.newest1>h2{display:none;}
+
+.newest1{width:1200px;height:600px;margin:55px auto 55px auto;}
+.newest1_left{height:600px;width:600px;border:2px solid #359121;box-sizing:border-box;float:left;background: #f8f9f3;}
+.newest1_right{height:600px;width:600px;border:2px solid #fcd8a4;box-sizing:border-box;float:left;background: #fff;}
+
+
+/*뉴이스트 공통css*/
+
+.newest1_info,.newest1_info2{width:355px;float:left; }
+.newest1_info p,.newest1_info2 p,.newest_visual_1 p,.newest_visual_2 p{margin:20px 0 0 20px;}
+
+.newest1_info p:nth-child(5)>img,.newest1_info2 p:nth-child(5)>img,.newest_visual_1 p:nth-child(2) a,.newest_visual_2 p:nth-child(2) a{float:right;}
+.newest_visual_1 p:nth-child(2) a,.newest_visual_2 p:nth-child(2) a
+{margin-right:20px;color:#fff;opacity:0.6;font-size:40px;float:right; }
+
+
+.newest_visual_1 p:first-child{ 
+   font-size:47px; 
+   color:rgba(255,255,255,0.6);
+  float:left;}
+.newest_visual_1 p:nth-child(2){ 
+  float:right; margin-bottom:50px;}
+.newest_visual_1 p:nth-child(3){ 
+  clear:both;}
+
+
+.newest_visual_1 p:first-child span{
+  border-bottom:3px solid rgba(255,255,255,0.6);
+  display:block; float:left; padding-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.newest_visual_1 p:nth-child(1),.newest_visual_2 p:nth-child(1){color:#fff;opacity:0.6;font-size:47px; float:left; margin-top:100px;}
+.newest_visual_1 p:nth-child(1) span,.newest_visual_2 p:nth-child(1) span
+{border-bottom:3px solid rgba(255,255,255,0.6);display:block;float:left;padding-bottom:20px;}
+*/
+.newest_visual_1 p:nth-child(3),.newest_visual_2 p:nth-child(3)
+{padding-top:10px;color:#fff;opacity:0.6;font-size:18px;clear:both;}
+
+
+/*뉴이스트 왼쪽영역*/
+
+.newest1_info>p:nth-child(1)>img{border-bottom:2px solid #359121;padding-bottom:15px;margin-bottom:15px;}
+.newest1_info p:nth-child(2){color: #359121;font-size:25px;margin-bottom:35px;letter-spacing:-2px;}
+.newest1_info p:nth-child(3){color: #133d24;font-size:18px;margin-bottom:35px;letter-spacing:-3px;}
+.newest1_info p:nth-child(4) a{color: #133d24;font-size:14px;letter-spacing:-2px;}
+.newest1_info p:nth-child(4){width:140px;height:30px;border:1px solid #359121;line-height:30px;text-align:center;}
+
+.newest_visual_1{height:600px;width:205px;background:url(images/newest1_visual1.jpg) no-repeat center top/auto 596px;float:right;}
+
+
+
+/*뉴이스트 오른쪽영역*/
+
+.newest1_info2>p:nth-child(1)>img{border-bottom:2px solid #74572c;padding-bottom:15px;margin-bottom:15px;}
+.newest1_info2 p:nth-child(2){color: #795930;font-size:25px;margin-bottom:35px;letter-spacing:-2px;}
+.newest1_info2 p:nth-child(3){color: #727272;font-size:18px;margin-bottom:35px;letter-spacing:-3px;}
+.newest1_info2 p:nth-child(4) a{color: #727272;font-size:14px;letter-spacing:-2px;}
+.newest1_info2 p:nth-child(4){width:140px;height:30px;border:1px solid #f5c533;line-height:30px;text-align:center;}
+
+.newest_visual_2{height:600px;width:205px;background:url(images/newest1_visual2.jpg) no-repeat center top/auto 596px;float:right;}
+
+
+
+/*뉴이스트 하단 영역*/
+
+.newest_2>h2{display:none;}
+
+.newest_2wrap{width:600px;height:560px;float:left;}
+
+.newest_2{height:560px;width:1200px;margin:0 auto 55px auto;}
+.newest_2_1{height:280px;width:395px;background:#AADC9F;float:left;}
+
+.newest_2_1>h3,.newest_2_2>h3{margin:20px 0 25px 20px;color:#0d3a14;font-size:25px;float:left;}
+.newest_2_1>p>a,.newest_2_2>p>a{float:right;margin:20px 20px 25px 0;color:#0d3a14;font-size:25px;}
+.newest_2_1>table,.newest_2_2>table{clear:both;margin-left:20px;}
+
+.newest_2_1 table tbody tr td a,.newest_2_2>table tbody tr td a{color:#0d3a14;}
+/*.newest_2_1 table tbody tr td,.newest_2_2>table tbody tr td{padding-bottom:25px;color:#0d3a14;}*/
+ 
+.newest_2_1 table tbody tr td:nth-child(1){ width:260px; height:40px;}
+
+.newest_2_2 table tbody tr td:nth-child(1){ width:310px; height:40px;}
+
+.newest_2_2{height:280px;width:395px;background:#D4DE9F;float:left;}
+.newest_2_visual_1{height:560px;width:205px;background:url(images/newest2_visual1.jpg) no-repeat center top/auto 560px;float:right;}
+.newest2_guide{width:600px;height:560px;float:left;}
+
+
+.newest_2_visual_1 p{color:#fff;opacity:0.6;margin:20px;}
+.newest_2_visual_1 p span{border-bottom:3px solid rgba(255,255,255,0.6);}
+.newest_2_visual_1 p:nth-child(1){font-size:25px;}
+.newest_2_visual_1 p:nth-child(2){font-size:17px;}
+
+
+.newest2_guide div{width:300px;height:280px;}
+.newest2_guide div:nth-child(1){float:left; background:url(images/smartphon.jpg) no-repeat center 90px #a27945;}
+.newest2_guide div:nth-child(2){float:right;background:url(images/position.jpg) no-repeat center 90px #e6d89b;}
+.newest2_guide div:nth-child(3){float:left;background:url(images/document.jpg) no-repeat center 90px #deae70;}
+.newest2_guide div:nth-child(4){float:right; background:url(images/love.jpg) no-repeat center 90px #ce9697;}
+
+
+.newest2_guide div:nth-child(1)>h3,.newest2_guide div:nth-child(2)>h3,.newest2_guide div:nth-child(3)>h3,.newest2_guide div:nth-child(4)>h3{float:left;margin:20px 0px 25px 20px;}
+.newest2_guide div:nth-child(1)>p>a,.newest2_guide div:nth-child(2)>p>a,.newest2_guide div:nth-child(3)>p>a,.newest2_guide div:nth-child(4)>p>a{float:right;margin:20px 20px 25px 0;}
+.newest2_guide div:nth-child(1)>h3,.newest2_guide div:nth-child(1)>p>a{color:#362815;font-size:25px;}
+.newest2_guide div:nth-child(2)>h3,.newest2_guide div:nth-child(2)>p>a{color:#362815;font-size:25px;}
+.newest2_guide div:nth-child(3)>h3,.newest2_guide div:nth-child(3)>p>a{color:#291d0d;font-size:25px;}
+.newest2_guide div:nth-child(4)>h3,.newest2_guide div:nth-child(4)>p>a{color:#ab4646;font-size:25px;}
+
+
